@@ -1,0 +1,35 @@
+.div1{
+  width: 15em;
+  border: 1px solid black;
+  box-shadow: 7px 7px 5px black;
+  padding: 35px 50px;
+  color: darkgreen;
+  text-align: center;
+  position: absolute;
+  top: 100px; left: 205px;
+}
+.div2{
+    width: 15em;
+    border: 1px solid black;
+    box-shadow: 7px 7px 5px black;
+    padding: 35px 50px;
+    color: darkgreen;
+    text-align: center;
+    position: absolute;
+    top: 100px; left: 1100px;
+  }
+.h2{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  right: 30px;
+}
+.h3{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fio{
+  position: relative;
+  font-size: 2em;
+  text-shadow: 1px 1px 3px gold;
+}

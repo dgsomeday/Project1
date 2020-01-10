@@ -1,0 +1,41 @@
+
+.redclr {
+  color: red;
+}
+.black {
+  color: white;
+  background-color: black;
+  text-transform:uppercase;
+}
+.hghlght{
+  font-size: x-large;
+  font-style: bold;
+  -webkit-text-stroke-color: black;
+  text-decoration:underline;
+  text-transform:uppercase;
+
+}
+.style1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+.style2 :not(.hghlght){
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: initial;
+  font-weight: 500;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: blue;
+  
+}
+.style3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: red;
+}
+.disc{
+  list-style-type: disc;
+}
+.square{
+  list-style-type: square;
+}
