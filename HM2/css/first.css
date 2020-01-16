@@ -1,0 +1,27 @@
+
+TABLE{
+ height: 100%;
+ table-layout: fixed ;
+}
+th{
+    border: 2px solid blue;
+    height: 10%;
+    background: yellow;
+    text-align: center
+}
+TD{
+    border: 2px solid black;
+    text-align: center
+}
+.col2 {
+    height: 50%;
+    background-color: rebeccapurple;
+}
+.col3 {
+    height: 30%;
+    width: 100%;
+    background-color: pink;
+}
+.col4 {
+    background-color: peru;
+}

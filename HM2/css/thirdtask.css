@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: url(../images/tulen.jpg);
+    background-size: cover;
+}
+.header {
+    width: 90%;
+    font-size: 20pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(110, 136, 143, 0.65);
+    border: 2px black solid;
+    height: 15%;
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 5px;
+}
+.menu {
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color:rgba(75, 75, 62, 0.5);
+    border: 2px black solid;
+    font-size: 16pt;
+    font-weight: 900;
+    text-align: left;
+    padding-right: 2%;
+    z-index: 1;
+    color: white;
+}
+.content {
+    padding-left: 1%;
+    padding-right: 1%;
+    float: right;
+    width: 85%;
+    margin-left: 12%;
+    background-color: rgba(128, 128, 128, 0.712);
+    border: 2px black solid;
+    height: 100%;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer {
+    margin-top: 7px;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(110, 136, 143, 0.65);
+    border: 2px black solid;
+    height: 15%;
+    top: 118%;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 20pt;
+    z-index: 2;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: black;
+    cursor: pointer;
+}

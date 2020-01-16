@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+p{
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: monospace;
+    font-stretch: extra-condensed;
+}
+.header {
+    position: relative;
+    background-color:palevioletred; 
+    width: 100%; 
+    height:10%;
+    margin-bottom: 0.35%;
+    border: 1px solid black;
+}
+.header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.left_col {
+    background-color:gray; 
+    width:49.6%; 
+    height:35%; 
+    float:left; 
+    border: 1px solid black;
+}
+.right_col {
+    float: right;
+    background-color:gray; 
+    width: 49.6%;
+    height:35%; 
+    border: 1px solid black;  
+}
+.left_col2 {
+    margin-top: 5px;
+    float: left;
+    background-color: red;
+    width: 32.83%;
+    height: 30%;
+    border: 1px solid black;
+}
+.cent_col2 {
+    margin-top: 5px;
+    background-color: rgba(255, 120, 0, 1);
+    margin-left: 0.5%;
+    float: left;
+    width: 32.83%;
+    height: 30%;
+    border: 1px solid black;
+}
+.right_col2 {
+    margin-top: 5px;
+    float: right;
+    background-color: yellow;
+    width: 32.83%;
+    margin-left: 0.5%;
+    height: 30%;
+    border: 1px solid black;
+}
+.left_col3 {
+    margin-top: 5px;
+    float: left;
+    background-color: green;
+    width: 24.45%;
+    height: 15%;
+    border: 1px solid black;
+}
+.cent_col31 {
+    margin-top: 5px;
+    float: left;
+    background-color: turquoise;
+    width: 24.45%;
+    height: 15%;
+    margin-left: 0.5%;
+    border: 1px solid black;
+}
+.cent_col32 {
+    margin-top: 5px;
+    float: left;
+    background-color: blue;
+    width: 24.45%;
+    height: 15%;
+    margin-left: 0.5%;
+    border: 1px solid black;
+}
+.right_col3 {
+    margin-top: 5px;
+    float: right;
+    background-color: purple;
+    width: 24.45%;
+    height: 15%;
+    margin-left: 0.5%;
+    border: 1px solid black;
+}
