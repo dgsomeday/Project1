@@ -227,7 +227,7 @@ body{
 	display: inline-block;
 	color: #555555;
 	font-size: 16px;
-	padding: 0 14px 60px 14px;
+	padding: 0 14px 75px 14px;
 	
 }
 .container4 ul li:hover{
@@ -247,6 +247,7 @@ body{
 	background-image: url(./images/img1.png);
 	width: 360px;
 	height: 320px;
+	margin: 0 1% 1% 0;
 }
 .container4 .background1{
 	background-color: rgba(255, 0, 0, 0.5);
@@ -254,7 +255,7 @@ body{
 	width: 100%;
 	opacity: 0;
 }
-.container4 .button1{
+.container4 .button{
 	position: relative;
 	top:175px;
 	font-family: 'RobotoSlab Regular';
@@ -286,24 +287,13 @@ body{
 	background-image: url(./images/img2.png);
 	width: 360px;
 	height: 320px;
+	margin: 0 1% 1% 1%;
 }
 .container4 .background2{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button2{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background2 .text1{
 	font-family: 'Montserrat Regular';
@@ -325,24 +315,13 @@ body{
 	background-image: url(./images/img3.png);
 	width: 360px;
 	height: 320px;
+	margin: 0 0 1% 1%;
 }
 .container4 .background3{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button3{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background3 .text1{
 	font-family: 'Montserrat Regular';
@@ -364,24 +343,13 @@ body{
 	background-image: url(./images/img4.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 1% 1% 0;
 }
 .container4 .background4{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button4{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background4 .text1{
 	font-family: 'Montserrat Regular';
@@ -403,24 +371,13 @@ body{
 	background-image: url(./images/img5.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 1% 1% 1%;
 }
 .container4 .background5{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button5{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background5 .text1{
 	font-family: 'Montserrat Regular';
@@ -442,24 +399,13 @@ body{
 	background-image: url(./images/img6.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 0 1% 1%;
 }
 .container4 .background6{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button6{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background6 .text1{
 	font-family: 'Montserrat Regular';
@@ -481,24 +427,13 @@ body{
 	background-image: url(./images/img7.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 1% 0 0;
 }
 .container4 .background7{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button7{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background7 .text1{
 	font-family: 'Montserrat Regular';
@@ -520,24 +455,13 @@ body{
 	background-image: url(./images/img8.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 1% 0 1%;
 }
 .container4 .background8{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button8{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background8 .text1{
 	font-family: 'Montserrat Regular';
@@ -559,24 +483,13 @@ body{
 	background-image: url(./images/img3.png);
 	width: 360px;
 	height: 320px;
+	margin: 1% 0 0 1%;
 }
 .container4 .background9{
 	background-color: rgba(255, 0, 0, 0.5);
-	height: 320px;
-	width: 360px;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
-}
-.container4 .button9{
-	position: relative;
-	top:175px;
-	font-family: 'RobotoSlab Regular';
-	font-size: 14pt;
-	text-align: center;
-	color:#c0301c;
-	background-color: white;
-	font-weight: 900;
-	padding: 15px 10px;
-
 }
 .container4 .background9 .text1{
 	font-family: 'Montserrat Regular';
@@ -602,7 +515,7 @@ body{
 	background-image: url(./images/Layer\ 29.png);
 	width: 100%;
 	height: 370px;
-	margin-top: 115px;
+	margin-top: 130px;
 }
 .container5 .redblock{
 	position: relative;
