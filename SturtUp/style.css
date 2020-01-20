@@ -525,27 +525,22 @@ body{
 	text-align: center;
 	line-height: 30pt;
 	color: white;
-
 }
 .container5 .background{
 	background-color: rgb(255, 0, 0, 0.3);
 	height: 370px;
 	width: 100%;
-	opacity: 0;
-}
-.container5 :hover{
-	opacity: 1;
 }
 .container5 .button{
 	position: relative;
 	top:220px;
+	left: 40%;
 	font-family: 'RobotoSlab Regular';
 	font-size: 18pt;
 	text-align: center;
 	color: white;
 	border: white 2px solid;
 	width: fit-content;
-	margin: 0 30% 0 40%;
 	padding: 20px;
 }
 .container5 .button :hover{
@@ -601,7 +596,7 @@ body{
 .container7 .gallery3 div{
 	max-width: 100%;
 	display: inline-block ;
-	margin: 100px -2.8% 0 -2.8%;
+	margin: 100px 10px 0 10px;
 	text-align: center;
 	border: white solid 2px;
 	border-radius: 50%;
