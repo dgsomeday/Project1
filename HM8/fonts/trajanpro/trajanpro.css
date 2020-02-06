@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Trajan Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trajan Pro'), url('./trajanpro.woff') format('woff');
+    }
