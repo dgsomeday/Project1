@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wholeField">
+        <div class="forma">
+            <input id="numberInput" onkeyup="this.value = this.value.replace(/[^\d]/,'')" value="" placeholder="">
+        </div>
+        <div class="buttons">
+            <form>
+                <button type="button" id="button1" data-toggle="collapse" >1</button>
+            </form>
+            <form>
+                <button type="button" id="button2" data-toggle="collapse" >2</button>
+            </form>
+            <form>
+                <button type="button" id="button3" data-toggle="collapse" >3</button>
+            </form>
+            <form>
+                <button type="button" id="button+" data-toggle="collapse" >+</button>
+            </form>
+            <form>
+                <button type="button" id="button4" data-toggle="collapse" >4</button>
+            </form>
+            <form>
+                <button type="button" id="button5" data-toggle="collapse" >5</button>
+            </form>
+            <form>
+                <button type="button" id="button6" data-toggle="collapse" >6</button>
+            </form>
+            <form>
+                <button type="button" id="button-" data-toggle="collapse" >-</button>
+            </form>
+            <form>
+                <button type="button" id="button7" data-toggle="collapse" >7</button>
+            </form>
+            <form>
+                <button type="button" id="button8" data-toggle="collapse" >8</button>
+            </form>
+            <form>
+                <button type="button" id="button9" data-toggle="collapse" >9</button>
+            </form>
+            <form>
+                <button type="button" id="button*" data-toggle="collapse" >*</button>
+            </form>
+            <form>
+                <button type="button" id="button/" data-toggle="collapse" >/</button>
+            </form>
+            <form>
+                <button type="button" id="button0" data-toggle="collapse" >0</button>
+            </form>
+            <form>
+                <button type="button" id="button=" data-toggle="collapse" >=</button>
+            </form>
+            <form>
+                <button type="button" id="buttonC" data-toggle="collapse" >C</button>
+            </form>
+            <form>
+                <button type="button" id="button." data-toggle="collapse" >.</button>
+            </form>
+            <form>
+                <button type="button" id="buttonC" data-toggle="collapse" >x²</button>
+            </form>
+            <form>
+                <button type="button" id="buttonC" data-toggle="collapse" >√</button>
+            </form>
+            <form>
+                <button type="button" class="linkMod" data-modal="1" id="buttonC" data-toggle="collapse" >:)</button>
+            </form>
+        </div>
+        <div class="modal" data-modal="1">
+            <button class="modal_cross" type="button">X</button>
+            <p class="modal__title">КАЛЬКУЛЯТЕР СДЕЛАЛ Горшков Дмитрий Андреевич</p>
+        </div>
+        <div class="overlay" id="overlay-modal"></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
